@@ -1,0 +1,25 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<com.google.android.gms.ads.AdView
+			android:id="@+id/adview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:adSize="BANNER"
+			app:adUnitId="ca-app-pub-7142462988454705/8046684862"/>
+		<WebView
+			android:id="@+id/webview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+	</LinearLayout>
+</LinearLayout>
